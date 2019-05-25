@@ -8,17 +8,13 @@
 <section>
 <form action="probar2.php" name="prueba" id="prueba" method="get">
 
-Email:
-<input type="text" name="text"/><br>
+IdCertamen: <input type="text" name="text"/><br>
+NombreCertamen: <input type="text" name="text2"/><br>
+Organizador: <input type="text" name="text3"/><br>
 <input type="submit" value="Enviar">
 </form>
 <?php
-	if(isset($_POST['prueba'])){
-		$nombre=$_POST['text'];
-		echo "Que pedos es: ".$nombre."</br>";
-		
-		
-	}
+	
 
 ?>
 
